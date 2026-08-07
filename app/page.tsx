@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { InstitutionExplorer } from "@/components/InstitutionExplorer";
@@ -33,7 +34,9 @@ export default function HomePage() {
 
       <main className="mx-auto w-full max-w-5xl flex-1 px-6 py-9">
         <section id="explorer" className="mb-10">
-          <InstitutionExplorer institutions={institutions} />
+          <Suspense>
+            <InstitutionExplorer institutions={institutions} />
+          </Suspense>
         </section>
 
         <section id="faq" className="mb-10">

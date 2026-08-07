@@ -12,13 +12,13 @@ export function SiteHeader() {
         {SITE.name}
       </Link>
       <nav className="hidden gap-7 text-sm font-semibold text-muted sm:flex">
-        <Link href="/#bank" className="hover:text-foreground">
+        <Link href="/?type=bank#explorer" className="hover:text-foreground">
           은행
         </Link>
-        <Link href="/#securities" className="hover:text-foreground">
+        <Link href="/?type=securities#explorer" className="hover:text-foreground">
           증권사
         </Link>
-        <Link href="/#savings" className="hover:text-foreground">
+        <Link href="/?type=savings#explorer" className="hover:text-foreground">
           저축은행
         </Link>
         <Link href="/#disclaimer" className="hover:text-foreground">

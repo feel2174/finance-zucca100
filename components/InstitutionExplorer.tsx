@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import { Search } from "lucide-react";
 import { InstitutionCard } from "@/components/InstitutionCard";
 import { institutionTypeColor } from "@/lib/types";
@@ -15,9 +16,19 @@ const segmentColor: Record<Segment, string | null> = {
   savings: institutionTypeColor.savings.text,
 };
 
+function isSegment(value: string | null): value is Segment {
+  return value === "bank" || value === "securities" || value === "savings";
+}
+
 export function InstitutionExplorer({ institutions }: { institutions: Institution[] }) {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
   const [segment, setSegment] = useState<Segment>("all");
+
+  useEffect(() => {
+    const type = searchParams.get("type");
+    setSegment(isSegment(type) ? type : "all");
+  }, [searchParams]);
 
   const bankCount = institutions.filter((item) => item.type === "bank").length;
   const securitiesCount = institutions.filter((item) => item.type === "securities").length;
