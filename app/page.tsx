@@ -18,16 +18,16 @@ export default function HomePage() {
       <SiteHeader />
 
       <div className="bg-band">
-        <div className="mx-auto max-w-5xl px-6 pb-7 pt-9">
-          <span className="mb-3.5 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1.5 text-[12px] font-bold text-accent">
+        <div className="mx-auto max-w-5xl px-6 pb-6 pt-8">
+          <span className="mb-3 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1.5 text-[12px] font-bold text-accent">
             ✦ 공식 페이지·공식 앱으로만 연결
           </span>
-          <h1 className="mb-1.5 max-w-[22ch] text-[27px] font-extrabold leading-[1.3] tracking-tight text-primary sm:text-[32px]">
+          <h1 className="mb-1.5 text-[27px] font-extrabold leading-[1.3] tracking-tight text-primary sm:text-[32px]">
             은행·증권사·저축은행 이름만 알면,
             <br />
             <span className="text-accent">{SITE.name}</span>에서 바로.
           </h1>
-          <p className="max-w-[50ch] text-[14px] text-muted">{SITE.description}</p>
+          <p className="text-[14px] text-muted">{SITE.description}</p>
         </div>
       </div>
 

@@ -2,7 +2,7 @@ import { ImageResponse } from "next/og";
 import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { getAllInstitutions, getInstitution } from "@/lib/institutions";
-import { institutionTypeLabel, type InstitutionType } from "@/lib/types";
+import { institutionTypeColor, institutionTypeLabel, type InstitutionType } from "@/lib/types";
 import { SITE } from "@/lib/site";
 
 export const size = { width: 1200, height: 630 };
@@ -43,6 +43,8 @@ export default async function Image({
 
   const title = institution ? `${institution.name} 홈페이지·앱 바로가기` : SITE.name;
   const badge = institution ? institutionTypeLabel[institution.type] : undefined;
+  const badgeColor = institution ? institutionTypeColor[institution.type].textOnDark : "#60A5FA";
+  const markColor = institution ? institutionTypeColor[institution.type].text : "#2563EB";
 
   return new ImageResponse(
     (
@@ -67,7 +69,7 @@ export default async function Image({
             width: 76,
             height: 76,
             borderRadius: 18,
-            background: "#2563EB",
+            background: markColor,
             alignItems: "center",
             justifyContent: "center",
           }}
@@ -95,7 +97,7 @@ export default async function Image({
               fontSize: 28,
               fontFamily: "Pretendard",
               fontWeight: 800,
-              color: "#60A5FA",
+              color: badgeColor,
             }}
           >
             {badge}

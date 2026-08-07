@@ -11,11 +11,21 @@ export function SiteFooter() {
           </span>
           {SITE.name}
         </div>
-        <p className="max-w-[62ch] text-[12.5px] text-muted">
+        <p className="text-[12.5px] text-muted">
           은행·증권사·저축은행 공식 페이지·공식 앱으로만 연결하는 링크 모음 서비스입니다. 금융상품 판매·중개·상담을
           하지 않으며, 어떤 금융기관과도 제휴 관계가 없습니다.
         </p>
-        <p className="mt-1 text-[12.5px] text-muted">
+        <p className="mt-2 text-[12.5px] text-muted">
+          보험금 청구 관련 바로가기는{" "}
+          <a
+            href="https://claim.zucca100.com/"
+            className="font-semibold text-accent hover:underline"
+          >
+            청구창구(claim.zucca100.com)
+          </a>
+          에서 확인하세요.
+        </p>
+        <p className="mt-2 text-[12.5px] text-muted">
           © {new Date().getFullYear()} {SITE.name} · 최신 정보는 각 기관의 공식 안내를 기준으로 확인하세요.
         </p>
       </div>

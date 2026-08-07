@@ -12,7 +12,7 @@ import {
   getRelatedInstitutions,
 } from "@/lib/institutions";
 import { SITE } from "@/lib/site";
-import { institutionTypeLabel } from "@/lib/types";
+import { institutionTypeColor, institutionTypeLabel } from "@/lib/types";
 import type { InstitutionType } from "@/lib/types";
 
 function isInstitutionType(value: string): value is InstitutionType {
@@ -58,6 +58,7 @@ export default async function InstitutionPage({
   if (!institution) notFound();
 
   const related = getRelatedInstitutions(institution);
+  const typeColor = institutionTypeColor[institution.type];
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -88,11 +89,14 @@ export default async function InstitutionPage({
         </Link>
 
         <div className="mb-6 flex items-start gap-3.5">
-          <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-band text-[17px] font-extrabold text-primary">
+          <span
+            className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl text-[17px] font-extrabold"
+            style={{ backgroundColor: typeColor.bg, color: typeColor.text }}
+          >
             {institution.name.slice(0, 1)}
           </span>
           <div>
-            <p className="mb-1 text-[12px] font-bold text-accent">
+            <p className="mb-1 text-[12px] font-bold" style={{ color: typeColor.text }}>
               {institutionTypeLabel[institution.type]}
             </p>
             <h1 className="text-[24px] font-extrabold leading-tight tracking-tight text-primary sm:text-[28px]">
@@ -102,9 +106,7 @@ export default async function InstitutionPage({
         </div>
 
         {institution.blurb ? (
-          <p className="mb-6 max-w-[60ch] text-[14.5px] leading-[1.7] text-muted">
-            {institution.blurb}
-          </p>
+          <p className="mb-6 text-[14.5px] leading-[1.7] text-muted">{institution.blurb}</p>
         ) : null}
 
         <section className="mb-7">
