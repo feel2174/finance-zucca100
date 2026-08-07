@@ -9,7 +9,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/kb%EC%8A%A4%ED%83%80%EB%B1%85%ED%82%B9/id373742138",
     "appName": "KB스타뱅킹",
     "customerCenterTel": "1588-9999",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://obank.kbstar.com/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://obank.kbstar.com/"
+    },
     "blurb": "국내 최대 규모 시중은행으로, KB스타뱅킹 앱에서 계좌조회부터 이체까지 한 번에 처리해요."
   },
   {
@@ -22,7 +25,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id357484932",
     "appName": "신한 슈퍼SOL",
     "customerCenterTel": "1599-8000",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://bank.shinhan.com/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://bank.shinhan.com/"
+    },
     "blurb": "쏠(SOL)뱅크가 '신한 슈퍼SOL'로 새단장해 은행·카드·증권 서비스를 한 앱에서 이용해요."
   },
   {
@@ -35,7 +41,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%ACwon%EB%B1%85%ED%82%B9/id1470181651",
     "appName": "우리WON뱅킹",
     "customerCenterTel": "1588-5000",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://spib.wooribank.com/pib/Dream?withyou=CMLGN0001" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://spib.wooribank.com/pib/Dream?withyou=CMLGN0001"
+    },
     "blurb": "우리WON뱅킹 앱 하나로 입출금부터 대출, 자산관리까지 이용할 수 있어요."
   },
   {
@@ -48,7 +57,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id6743190232",
     "appName": "하나원큐(신규)",
     "customerCenterTel": "1588-1111",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://www.kebhana.com/common/login.do" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://www.kebhana.com/common/login.do"
+    },
     "blurb": "하나원큐 앱이 새 버전으로 교체되는 중이에요 — 최신 버전 기준으로 안내해요."
   },
   {
@@ -61,7 +73,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/sc%EC%A0%9C%EC%9D%BC%EC%9D%80%ED%96%89-%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B1%85%ED%82%B9/id1457418899",
     "appName": "SC제일은행 모바일뱅킹",
     "customerCenterTel": "1588-1599",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://bb.standardchartered.co.kr/login/lgn11000mp.mnu" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://bb.standardchartered.co.kr/login/lgn11000mp.mnu"
+    },
     "blurb": "외국계 은행인 SC제일은행의 모바일뱅킹 앱과 인터넷뱅킹 바로가기예요."
   },
   {
@@ -74,7 +89,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/nh%EC%98%AC%EC%9B%90%EB%B1%85%ED%81%AC-%EB%86%8D%ED%98%91%EC%9D%80%ED%96%89-%EB%8C%80%ED%91%9C-%ED%94%8C%EB%9E%AB%ED%8F%BC/id1641628055",
     "appName": "NH올원뱅크",
     "customerCenterTel": "1661-3000",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://banking.nonghyup.com/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://banking.nonghyup.com/"
+    },
     "blurb": "전국 농축협과 함께 쓰는 NH올원뱅크 앱으로 은행 업무를 한 번에 처리해요."
   },
   {
@@ -87,7 +105,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id1460543865",
     "appName": "i-ONE Bank",
     "customerCenterTel": "1566-2566",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://mybank.ibk.co.kr/uib/jsp/guest/main/p_certi_one_login.jsp" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://mybank.ibk.co.kr/uib/jsp/guest/main/p_certi_one_login.jsp"
+    },
     "blurb": "중소기업·개인 고객을 위한 IBK기업은행의 개인용 앱 i-ONE Bank예요."
   },
   {
@@ -100,7 +121,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id392572957",
     "appName": "스마트KDB",
     "customerCenterTel": "1588-1500",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://banking.kdb.co.kr/bp/BPPLMN00N10.act" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://banking.kdb.co.kr/bp/BPPLMN00N10.act"
+    },
     "blurb": "국책은행인 KDB산업은행의 개인고객용 스마트KDB 앱 바로가기예요."
   },
   {
@@ -113,7 +137,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id1229985989",
     "appName": "수협 파트너뱅크 개인",
     "customerCenterTel": "1588-1515",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://www.suhyup-bank.com/ib20/mnu/PBM00262" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://www.suhyup-bank.com/ib20/mnu/PBM00262"
+    },
     "blurb": "수협은행의 개인고객용 모바일뱅킹 앱, 파트너뱅크로 바로 이동해요."
   },
   {
@@ -138,7 +165,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id1178872627",
     "appName": "케이뱅크",
     "customerCenterTel": "1522-1000",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://www.kbanknow.com/ib20/mnu/CMMLGI010000" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://www.kbanknow.com/ib20/mnu/CMMLGI010000"
+    },
     "blurb": "국내 최초 인터넷전문은행 케이뱅크 앱으로 비대면 뱅킹을 이용해요."
   },
   {
@@ -164,7 +194,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/im%EB%B1%85%ED%81%AC/id1067748687",
     "appName": "iM뱅크",
     "customerCenterTel": "1566-5050",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://banking.imbank.co.kr/com_ebz_pib_sub_main.act" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://banking.imbank.co.kr/com_ebz_pib_sub_main.act"
+    },
     "blurb": "2024년 대구은행에서 사명을 바꾼 전국구 은행 iM뱅크예요."
   },
   {
@@ -177,7 +210,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/id1445137607",
     "appName": "BNK부산은행 모바일뱅킹",
     "customerCenterTel": "1588-6200",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://ibank.busanbank.co.kr/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://ibank.busanbank.co.kr/"
+    },
     "blurb": "부산·경남 지역 대표 지방은행인 BNK부산은행 모바일뱅킹 앱이에요."
   },
   {
@@ -190,7 +226,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/bnk%EA%B2%BD%EB%82%A8%EC%9D%80%ED%96%89-%EB%AA%A8%EB%B0%94%EC%9D%BC%EB%B1%85%ED%82%B9/id678852685",
     "appName": "BNK경남은행 모바일뱅킹",
     "customerCenterTel": "1600-8585",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://ibank.knbank.co.kr/ib20/mnu/CMMLGI001001001" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://ibank.knbank.co.kr/ib20/mnu/CMMLGI001001001"
+    },
     "blurb": "경남 지역 대표 지방은행인 BNK경남은행 모바일뱅킹 앱이에요."
   },
   {
@@ -203,7 +242,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/%EA%B4%91%EC%A3%BC%EC%9D%80%ED%96%89-%EA%B0%9C%EC%9D%B8%EB%B1%85%ED%82%B9/id1576149106",
     "appName": "광주 와뱅크",
     "customerCenterTel": "1588-3388",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://pib.kjbank.com/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://pib.kjbank.com/"
+    },
     "blurb": "호남 지역 대표 지방은행인 광주은행의 개인뱅킹 앱, 와뱅크예요."
   },
   {
@@ -216,7 +258,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/%EC%A0%84%EB%B6%81%EC%9D%80%ED%96%89-%EC%8F%99%EB%B1%85%ED%81%AC/id1547903285",
     "appName": "전북은행 쏙(SSOK)뱅크",
     "customerCenterTel": "1588-4477",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://ibs.jbbank.co.kr/" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://ibs.jbbank.co.kr/"
+    },
     "blurb": "전북 지역 대표 지방은행인 전북은행의 쏙(SSOK)뱅크 앱이에요."
   },
   {
@@ -229,7 +274,10 @@
     "iosUrl": "https://apps.apple.com/kr/app/%EC%A0%9C%EC%A3%BC%EC%9D%80%ED%96%89-jbank/id6443788309",
     "appName": "JBANK",
     "customerCenterTel": "1588-0079",
-    "extraCta": { "label": "인터넷뱅킹 로그인", "url": "https://www.jejubank.co.kr/hmpg/inbn.do" },
+    "extraCta": {
+      "label": "인터넷뱅킹 로그인",
+      "url": "https://www.jejubank.co.kr/hmpg/inbn.do"
+    },
     "blurb": "제주 지역 유일 지방은행인 제주은행의 개인뱅킹 앱, JBANK예요."
   },
   {
@@ -594,5 +642,587 @@
     "appName": "우리WON MTS(증권)",
     "customerCenterTel": "1588-1000",
     "blurb": "우리종합금융과 한국포스증권이 합병해 새로 출범한 우리투자증권의 증권 전용 MTS예요."
+  },
+  {
+    "id": "sbi-savings",
+    "name": "SBI저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.sbisb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.sbi.saidabank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1460544457",
+    "appName": "사이다뱅크(SBI저축은행)",
+    "customerCenterTel": "1566-2210",
+    "blurb": "저축은행 업계 1위, 사이다뱅크 앱으로 예금·대출을 간편하게 이용해요."
+  },
+  {
+    "id": "ok-savings",
+    "name": "OK저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.oksavingsbank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.cabsoft.oksavingbank",
+    "iosUrl": "https://apps.apple.com/kr/app/ok-%EC%A0%80%EC%B6%95%EC%9D%80%ED%96%89/id973344869",
+    "appName": "OK저축은행 모바일뱅킹",
+    "customerCenterTel": "1899-7979",
+    "blurb": "OK저축은행 앱으로 예금, 대출부터 자산관리까지 한 번에 처리해요."
+  },
+  {
+    "id": "welcome-savings",
+    "name": "웰컴저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.welcomebank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.welcomebank.omb",
+    "iosUrl": "https://apps.apple.com/kr/app/id1362484999",
+    "appName": "웰컴디지털뱅크(웰컴저축은행)",
+    "customerCenterTel": "1661-0001",
+    "blurb": "웰컴디지털뱅크 앱에서 비대면 계좌개설과 중금리 대출을 이용해요."
+  },
+  {
+    "id": "pepper-savings",
+    "name": "페퍼저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.pepperbank.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.pepperbank.digital",
+    "iosUrl": "https://apps.apple.com/kr/app/id1597250071",
+    "appName": "디지털페퍼(페퍼저축은행)",
+    "customerCenterTel": "1599-0722",
+    "blurb": "디지털페퍼 앱으로 파킹통장과 대출 상품을 간편하게 이용해요."
+  },
+  {
+    "id": "daol-savings",
+    "name": "다올저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.daolsb.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.eugene.eugenebank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1440474118",
+    "appName": "다올디지털뱅크 Fi(파이)",
+    "customerCenterTel": "1544-6700",
+    "blurb": "다올디지털뱅크 Fi 앱에서 예금·적금부터 대출까지 비대면으로 처리해요."
+  },
+  {
+    "id": "acuon-savings",
+    "name": "애큐온저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.acuonsb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.acuonsavingsbank.acuonsb",
+    "iosUrl": "https://apps.apple.com/kr/app/id1304908041",
+    "appName": "애큐온저축은행",
+    "customerCenterTel": "1588-6161",
+    "blurb": "애큐온저축은행 앱으로 예금과 신용대출 상품을 편리하게 관리해요."
+  },
+  {
+    "id": "sangsangin-savings",
+    "name": "상상인저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.sangsanginsb.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.ssi.sdfp",
+    "iosUrl": "https://apps.apple.com/kr/app/id1514346717",
+    "appName": "뱅뱅뱅 상상인디지털뱅크(상상인저축은행)",
+    "customerCenterTel": "1899-0999",
+    "blurb": "뱅뱅뱅 앱에서 비대면 계좌개설부터 자동대출까지 이용해요."
+  },
+  {
+    "id": "sangsangin-plus-savings",
+    "name": "상상인플러스저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.sangsanginplussb.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.ssip.sdfp",
+    "iosUrl": "https://apps.apple.com/kr/app/id1586080683",
+    "appName": "크크크 상상인플러스디지털뱅크(상상인플러스저축은행)",
+    "customerCenterTel": "1600-2100",
+    "blurb": "크크크 앱으로 상상인플러스저축은행의 예금·대출 서비스를 이용해요."
+  },
+  {
+    "id": "ibk-savings",
+    "name": "IBK저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.ibksb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.ibksb.ibank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1496690105",
+    "appName": "IBK저축은행 i-Bank",
+    "customerCenterTel": "1522-7900",
+    "blurb": "IBK기업은행 계열 저축은행으로, i-Bank 앱에서 금융업무를 처리해요."
+  },
+  {
+    "id": "hana-savings",
+    "name": "하나저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.hanasavings.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.hanasv.smartbanknew",
+    "iosUrl": "https://apps.apple.com/kr/app/id1530134607",
+    "appName": "하나원큐 저축은행 – 디지털뱅킹",
+    "customerCenterTel": "1899-1122",
+    "blurb": "하나금융그룹 계열, 하나원큐 저축은행 앱으로 비대면 뱅킹을 이용해요."
+  },
+  {
+    "id": "shinhan-savings",
+    "name": "신한저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.shinhansavings.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.shinhan.spbs",
+    "iosUrl": null,
+    "appName": "신한 SOL저축은행 - 신한저축은행 디지털뱅크",
+    "customerCenterTel": "1644-7777",
+    "appNote": "iOS 앱스토어 링크 확인 중",
+    "blurb": "신한금융그룹 계열 저축은행으로, SOL저축은행 앱에서 예금·대출을 관리해요."
+  },
+  {
+    "id": "woori-financial-savings",
+    "name": "우리금융저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.woorisavingsbank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.woorifsb.woorifsbapp",
+    "iosUrl": "https://apps.apple.com/kr/app/id1561568401",
+    "appName": "우리WON저축은행",
+    "customerCenterTel": "1599-0038",
+    "blurb": "우리금융그룹 계열, 우리WON저축은행 앱으로 예금과 대출을 이용해요."
+  },
+  {
+    "id": "kb-savings",
+    "name": "KB저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.kbsavings.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.kbsavings.android",
+    "iosUrl": "https://apps.apple.com/kr/app/id1006543056",
+    "appName": "키위뱅크(KB저축은행)",
+    "customerCenterTel": "1899-0900",
+    "blurb": "KB금융그룹 계열 저축은행, 키위뱅크 앱에서 대출과 예금을 관리해요."
+  },
+  {
+    "id": "nh-savings",
+    "name": "NH저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.nhsavingsbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.nhsavingsbank.m",
+    "iosUrl": "https://apps.apple.com/kr/app/id1487769742",
+    "appName": "NH FIC Bank (NH저축은행)",
+    "customerCenterTel": "1588-5191",
+    "blurb": "NH농협 계열 저축은행으로, NH FIC Bank 앱에서 금융서비스를 이용해요."
+  },
+  {
+    "id": "db-savings",
+    "name": "DB저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.idbsb.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.idbsb.smartbank.android",
+    "iosUrl": "https://apps.apple.com/kr/app/id1393942975",
+    "appName": "DB저축은행",
+    "customerCenterTel": "1600-4902",
+    "blurb": "DB금융그룹 계열 저축은행으로, 전용 앱에서 예금·대출을 관리해요."
+  },
+  {
+    "id": "yuanta-savings",
+    "name": "유안타저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.yuantasavings.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "02-6022-3700",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "전용 앱 없이 저축은행 통합 앱 SB톡톡플러스로 예금·대출을 이용해요."
+  },
+  {
+    "id": "jt-savings",
+    "name": "JT저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.jt-bank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.jtbank.app",
+    "iosUrl": "https://apps.apple.com/kr/app/id1514708860",
+    "appName": "JT저축은행",
+    "customerCenterTel": "1644-0011",
+    "blurb": "JT친애저축은행과는 별도 법인인 JT저축은행 전용 앱으로 뱅킹을 이용해요."
+  },
+  {
+    "id": "jt-chinae-savings",
+    "name": "JT친애저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.jtchinae-bank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.jtchinaebank.app.ft",
+    "iosUrl": "https://apps.apple.com/kr/app/id1488421189",
+    "appName": "JT친애모바일뱅킹",
+    "customerCenterTel": "1544-9191",
+    "blurb": "JT친애모바일뱅킹 앱으로 대출과 예금 상품을 비대면으로 이용해요."
+  },
+  {
+    "id": "sky-savings",
+    "name": "스카이저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.skysb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "1588-4111",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "전용 앱 없이 저축은행 통합 앱 SB톡톡플러스로 예금·대출을 이용해요."
+  },
+  {
+    "id": "kiwoom-savings",
+    "name": "키움저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.kiwoombank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.daou.kbank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1522651377",
+    "appName": "키움저축은행",
+    "appNote": "고객센터 대표전화 확인 중",
+    "blurb": "키움증권 계열 저축은행으로, 전용 앱에서 대출과 예금을 관리해요."
+  },
+  {
+    "id": "moa-savings",
+    "name": "모아저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.moasb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.moasb.moaapp",
+    "iosUrl": "https://apps.apple.com/kr/app/id1580681304",
+    "appName": "모아저축은행 디지털뱅크",
+    "customerCenterTel": "1644-8850",
+    "blurb": "모아저축은행 디지털뱅크 앱으로 비대면 계좌개설과 이체를 이용해요."
+  },
+  {
+    "id": "pureun-savings",
+    "name": "푸른저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.prsb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.pureunbank.mobile",
+    "iosUrl": "https://apps.apple.com/kr/app/id1454339390",
+    "appName": "푸른저축은행 스마트뱅킹",
+    "customerCenterTel": "1544-8200",
+    "blurb": "서울 소재 저축은행으로 전용 스마트뱅킹 앱에서 예적금과 대출을 관리해요."
+  },
+  {
+    "id": "daishin-savings",
+    "name": "대신저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.daishinbank.com/main.html",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.daishinbank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1017609393",
+    "appName": "대신저축은행 스마트뱅크",
+    "customerCenterTel": "1644-5600",
+    "blurb": "강원 지역 기반 저축은행으로 스마트뱅크 앱에서 예적금과 대출을 이용해요."
+  },
+  {
+    "id": "heungkuk-savings",
+    "name": "흥국저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.hkbanking.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "051-925-2100",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "부산 연제구 소재 저축은행으로 SB톡톡플러스 통합앱으로 계좌를 관리해요."
+  },
+  {
+    "id": "dongyang-savings",
+    "name": "동양저축은행",
+    "type": "savings",
+    "homepageUrl": "https://intro.dysbank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.dybank.moneybowl",
+    "iosUrl": "https://apps.apple.com/kr/app/id1610077293",
+    "appName": "동행-동양저축은행",
+    "customerCenterTel": "062-720-0800",
+    "blurb": "광주 소재 저축은행으로 전용 앱 '동행'에서 자산관리와 대출견적을 확인해요."
+  },
+  {
+    "id": "koreainvestment-savings",
+    "name": "한국투자저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.kisb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=com.koreainvestment.android.keybank",
+    "iosUrl": "https://apps.apple.com/kr/app/id1598069018",
+    "appName": "한국투자저축은행 KEY뱅크",
+    "customerCenterTel": "1577-6333",
+    "blurb": "한국투자금융그룹 계열 저축은행으로 KEY뱅크 앱에서 예적금·대출을 이용해요."
+  },
+  {
+    "id": "smart-savings",
+    "name": "스마트저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.smartbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.co.smartbank.app",
+    "iosUrl": "https://apps.apple.com/kr/app/id1552329994",
+    "appName": "스마트저축은행 smart-i",
+    "customerCenterTel": "1661-3651",
+    "blurb": "서울 소재 저축은행으로 smart-i 앱을 통해 비대면 예적금·대출을 관리해요."
+  },
+  {
+    "id": "anguk-savings",
+    "name": "안국저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.angukbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "031-941-7271",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "경기 파주 소재 저축은행으로 SB톡톡플러스 통합앱에서 계좌를 관리해요."
+  },
+  {
+    "id": "joheung-savings",
+    "name": "조흥저축은행",
+    "type": "savings",
+    "homepageUrl": "http://chbank.net/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "appNote": "조흥은행과는 무관한 별도 법인이며, 자체 앱 대신 SB톡톡플러스로 이용해요. 고객센터 번호 확인 중.",
+    "blurb": "조흥은행과는 무관한 지역 저축은행으로 SB톡톡플러스 앱으로 이용해요."
+  },
+  {
+    "id": "samjung-savings",
+    "name": "삼정저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.samjungsavingsbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "02-6226-5000",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "서울 소재 저축은행으로 SB톡톡플러스 통합앱에서 예적금과 대출을 이용해요."
+  },
+  {
+    "id": "namyang-savings",
+    "name": "남양저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.nybank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요. 고객센터 번호 확인 중.",
+    "blurb": "경기 구리에서 1983년 설립된 저축은행으로 SB톡톡플러스 앱으로 이용해요."
+  },
+  {
+    "id": "insung-savings",
+    "name": "인성저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.insungsavingsbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "032-865-3911",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "인천 미추홀구 소재 저축은행으로 SB톡톡플러스 앱에서 계좌를 관리해요."
+  },
+  {
+    "id": "osung-savings",
+    "name": "오성저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.osungbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=co.osb.banking",
+    "iosUrl": "https://apps.apple.com/kr/app/id845039320",
+    "appName": "OSB저축은행 스마트뱅킹",
+    "appNote": "고객센터 번호 확인 중.",
+    "blurb": "OSB저축은행 스마트뱅킹 앱에서 비대면 계좌개설과 예적금을 이용해요."
+  },
+  {
+    "id": "yegaram-savings",
+    "name": "예가람저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.yegaramsb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=co.kr.yegaramsb.nsl.app",
+    "iosUrl": "https://apps.apple.com/kr/app/id1410057443",
+    "appName": "예스뱅킹",
+    "customerCenterTel": "1877-7788",
+    "blurb": "예가람저축은행 전용 앱 '예스뱅킹'으로 예적금과 대출을 관리해요."
+  },
+  {
+    "id": "seram-savings",
+    "name": "세람저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.serambank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "031-633-6781",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "경기 이천 소재 저축은행으로 SB톡톡플러스 앱을 통해 이용 가능해요."
+  },
+  {
+    "id": "yungchang-savings",
+    "name": "융창저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.ycbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "1522-9119",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "경기 광명 소재 저축은행으로 햇살론 등 서민금융 대출을 제공해요."
+  },
+  {
+    "id": "incheon-savings",
+    "name": "인천저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.incheonbank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "032-421-2111",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "인천 지역 저축은행으로 SB톡톡플러스 앱에서 계좌를 조회하고 관리해요."
+  },
+  {
+    "id": "daemyung-savings",
+    "name": "대명저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.daemyungbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요. 고객센터 번호 확인 중.",
+    "blurb": "지역 기반 저축은행으로 SB톡톡플러스 통합앱을 통해 서비스를 이용해요."
+  },
+  {
+    "id": "cheongju-savings",
+    "name": "청주저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.cheongjubank.com/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "043-256-9114",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "충북 청주 소재 저축은행으로 SB톡톡플러스 앱에서 예적금을 관리해요."
+  },
+  {
+    "id": "wooree-savings",
+    "name": "우리저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.wooleebank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "02-3978-600",
+    "appNote": "우리금융그룹(우리은행)과는 무관한 별도 법인이며, 자체 앱 대신 SB톡톡플러스로 이용해요.",
+    "blurb": "우리금융그룹과는 무관한 독립 저축은행으로, SB톡톡플러스 앱으로 이용해요."
+  },
+  {
+    "id": "daehan-savings",
+    "name": "대한저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.daehanbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "062-527-5701",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "광주광역시 소재 저축은행으로 SB톡톡플러스 통합앱을 통해 이용해요."
+  },
+  {
+    "id": "samho-savings",
+    "name": "삼호저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.samhosb.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "1661-3651",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "저축은행으로 대출전용 앱 '예쓰론'과 SB톡톡플러스 통합앱을 함께 제공해요."
+  },
+  {
+    "id": "star-savings",
+    "name": "스타저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.estarbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "063-277-1311",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "전북 지역 저축은행으로 SB톡톡플러스 앱에서 예적금과 대출을 이용해요."
+  },
+  {
+    "id": "mustsamil-savings",
+    "name": "머스트삼일저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.samilbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "054-275-4060",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "경북 포항 소재 저축은행으로 SB톡톡플러스 앱을 통해 이용해요."
+  },
+  {
+    "id": "charm-savings",
+    "name": "참저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.charmbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "053-720-7300",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "대구 수성구 소재 저축은행으로 SB톡톡플러스 통합앱으로 이용해요."
+  },
+  {
+    "id": "goryo-savings",
+    "name": "고려저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.goryosb.co.kr/home",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=co.kr.goryosb.nsl.app",
+    "iosUrl": "https://apps.apple.com/kr/app/id1571863170",
+    "appName": "GO BANK(고려저축은행)",
+    "customerCenterTel": "1544-3637",
+    "blurb": "고려저축은행 전용 앱 'GO BANK'에서 예적금·대출을 통합 관리해요."
+  },
+  {
+    "id": "central-savings",
+    "name": "센트럴저축은행",
+    "type": "savings",
+    "homepageUrl": "https://www.centralbank.co.kr/",
+    "appAvailable": true,
+    "androidUrl": "https://play.google.com/store/apps/details?id=kr.or.sbbank.plus",
+    "iosUrl": "https://apps.apple.com/kr/app/id1469002262",
+    "appName": "SB톡톡플러스",
+    "customerCenterTel": "062-224-4010",
+    "appNote": "자체 브랜드 앱 대신 저축은행중앙회 통합 앱 SB톡톡플러스로 이용해요.",
+    "blurb": "광주 소재 저축은행으로 SB톡톡플러스 통합앱을 통해 이용 가능해요."
   }
 ]

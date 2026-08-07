@@ -18,6 +18,11 @@ export const metadata: Metadata = {
     title: SITE.name,
     description: SITE.description,
   },
+  twitter: {
+    card: "summary_large_image",
+    title: SITE.name,
+    description: SITE.description,
+  },
   verification: {
     other: {
       "naver-site-verification": "6758176b88a03a977643eceb0784ebcadcdef2fd",

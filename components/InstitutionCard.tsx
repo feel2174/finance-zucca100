@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import type { Institution } from "@/lib/types";
+import { institutionTypeLabel } from "@/lib/types";
 
 export function InstitutionCard({ institution }: { institution: Institution }) {
   return (
@@ -16,7 +17,7 @@ export function InstitutionCard({ institution }: { institution: Institution }) {
       <span className="flex min-w-0 flex-1 flex-col">
         <span className="truncate text-[13.5px] font-extrabold">{institution.name}</span>
         <span className="text-[10.5px] font-semibold text-muted">
-          {institution.type === "bank" ? "은행" : "증권사"}
+          {institutionTypeLabel[institution.type]}
         </span>
       </span>
       <ChevronRight size={16} className="shrink-0 text-accent" />

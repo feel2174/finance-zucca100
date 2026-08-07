@@ -1,8 +1,14 @@
+import type { Metadata } from "next";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
 import { InstitutionExplorer } from "@/components/InstitutionExplorer";
 import { getAllInstitutions } from "@/lib/institutions";
 import { SITE } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: { absolute: SITE.tagline },
+  description: SITE.description,
+};
 
 export default function HomePage() {
   const institutions = getAllInstitutions();
@@ -17,7 +23,7 @@ export default function HomePage() {
             ✦ 공식 페이지·공식 앱으로만 연결
           </span>
           <h1 className="mb-1.5 max-w-[22ch] text-[27px] font-extrabold leading-[1.3] tracking-tight text-primary sm:text-[32px]">
-            은행·증권사 이름만 알면,
+            은행·증권사·저축은행 이름만 알면,
             <br />
             <span className="text-accent">{SITE.name}</span>에서 바로.
           </h1>
@@ -37,7 +43,7 @@ export default function HomePage() {
           <div className="overflow-hidden rounded-2xl border border-border">
             <details className="border-t border-border first:border-t-0 open:bg-band/40" open>
               <summary className="flex cursor-pointer list-none items-center justify-between gap-3 px-5 py-3.5 text-[14px] font-bold">
-                은행·증권사 앱은 왜 이렇게 이름이 자주 바뀌나요?
+                은행·증권사·저축은행 앱은 왜 이렇게 이름이 자주 바뀌나요?
               </summary>
               <p className="px-5 pb-4 text-[13.5px] leading-[1.7] text-muted">
                 리브랜딩·통합 앱 출시가 잦아서예요. 검색만으로는 구버전 앱이나 다른 회사 앱이 먼저 뜨는
@@ -70,7 +76,7 @@ export default function HomePage() {
           <div className="rounded-2xl bg-band px-5 py-4.5 text-[13px] leading-[1.7] text-muted">
             <ul className="list-disc space-y-2 pl-4">
               <li>
-                각 은행·증권사의 공식 홈페이지·Google Play·App Store 페이지로 연결하는{" "}
+                각 은행·증권사·저축은행의 공식 홈페이지·Google Play·App Store 페이지로 연결하는{" "}
                 <b className="text-foreground">링크 모음 서비스</b>이며, 금융상품의 판매·중개·비교·상담을
                 하지 않습니다.
               </li>

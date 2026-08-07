@@ -18,6 +18,9 @@ export function SiteHeader() {
         <Link href="/#securities" className="hover:text-foreground">
           증권사
         </Link>
+        <Link href="/#savings" className="hover:text-foreground">
+          저축은행
+        </Link>
         <Link href="/#disclaimer" className="hover:text-foreground">
           안내
         </Link>

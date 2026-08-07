@@ -13,6 +13,7 @@ export function InstitutionExplorer({ institutions }: { institutions: Institutio
 
   const bankCount = institutions.filter((item) => item.type === "bank").length;
   const securitiesCount = institutions.filter((item) => item.type === "securities").length;
+  const savingsCount = institutions.filter((item) => item.type === "savings").length;
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -27,6 +28,7 @@ export function InstitutionExplorer({ institutions }: { institutions: Institutio
     { key: "all", label: "전체", count: institutions.length },
     { key: "bank", label: "은행", count: bankCount },
     { key: "securities", label: "증권사", count: securitiesCount },
+    { key: "savings", label: "저축은행", count: savingsCount },
   ];
 
   return (
@@ -38,7 +40,7 @@ export function InstitutionExplorer({ institutions }: { institutions: Institutio
             type="text"
             value={query}
             onChange={(event) => setQuery(event.target.value)}
-            placeholder="은행·증권사명을 입력하세요 (예: 국민은행, 미래에셋)"
+            placeholder="은행·증권사·저축은행명을 입력하세요 (예: 국민은행, 미래에셋, SBI저축은행)"
             className="w-full border-none bg-transparent text-[14px] text-foreground outline-none placeholder:text-muted"
           />
         </div>
@@ -63,7 +65,7 @@ export function InstitutionExplorer({ institutions }: { institutions: Institutio
 
       {filtered.length === 0 ? (
         <p className="rounded-2xl border border-dashed border-border py-10 text-center text-[14px] text-muted">
-          검색 결과가 없습니다. 은행·증권사명을 다시 확인해주세요.
+          검색 결과가 없습니다. 은행·증권사·저축은행명을 다시 확인해주세요.
         </p>
       ) : (
         <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 lg:grid-cols-3">

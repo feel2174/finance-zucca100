@@ -12,16 +12,12 @@ import {
   getRelatedInstitutions,
 } from "@/lib/institutions";
 import { SITE } from "@/lib/site";
+import { institutionTypeLabel } from "@/lib/types";
 import type { InstitutionType } from "@/lib/types";
 
 function isInstitutionType(value: string): value is InstitutionType {
-  return value === "bank" || value === "securities";
+  return value === "bank" || value === "securities" || value === "savings";
 }
-
-const typeLabel: Record<InstitutionType, string> = {
-  bank: "은행",
-  securities: "증권사",
-};
 
 export function generateStaticParams() {
   return getAllInstitutions().map((item) => ({
@@ -48,6 +44,7 @@ export async function generateMetadata({
     description,
     alternates: { canonical: `/${type}/${slug}` },
     openGraph: { title: `${title} | ${SITE.name}`, description },
+    twitter: { card: "summary_large_image", title: `${title} | ${SITE.name}`, description },
   };
 }
 
@@ -96,7 +93,7 @@ export default async function InstitutionPage({
           </span>
           <div>
             <p className="mb-1 text-[12px] font-bold text-accent">
-              {typeLabel[institution.type]}
+              {institutionTypeLabel[institution.type]}
             </p>
             <h1 className="text-[24px] font-extrabold leading-tight tracking-tight text-primary sm:text-[28px]">
               {institution.name} 홈페이지·앱 바로가기
@@ -150,7 +147,7 @@ export default async function InstitutionPage({
         {related.length > 0 ? (
           <section>
             <h2 className="mb-3 text-[15px] font-extrabold tracking-tight">
-              다른 {typeLabel[institution.type]} 바로가기
+              다른 {institutionTypeLabel[institution.type]} 바로가기
             </h2>
             <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2">
               {related.map((item) => (

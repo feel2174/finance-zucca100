@@ -12,7 +12,7 @@ export function SiteFooter() {
           {SITE.name}
         </div>
         <p className="max-w-[62ch] text-[12.5px] text-muted">
-          은행·증권사 공식 페이지·공식 앱으로만 연결하는 링크 모음 서비스입니다. 금융상품 판매·중개·상담을
+          은행·증권사·저축은행 공식 페이지·공식 앱으로만 연결하는 링크 모음 서비스입니다. 금융상품 판매·중개·상담을
           하지 않으며, 어떤 금융기관과도 제휴 관계가 없습니다.
         </p>
         <p className="mt-1 text-[12.5px] text-muted">
