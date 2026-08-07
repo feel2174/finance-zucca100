@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://finance.zucca100.com/sitemap.xml
+
+#DaumWebMasterTool:d6f461a7988f3395d11d93a9c77ff5ea67803883359b678a4d9cdef0963b6475:sjcdgIFnD+KHrXYYsEzp2A==
