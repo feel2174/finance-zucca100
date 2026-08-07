@@ -21,7 +21,7 @@ export function SiteFooter() {
             href="https://claim.zucca100.com/"
             className="font-semibold text-accent hover:underline"
           >
-            청구창구(claim.zucca100.com)
+청구창구
           </a>
           에서 확인하세요.
         </p>
