@@ -30,9 +30,39 @@ export const metadata: Metadata = {
       "naver-site-verification": "6758176b88a03a977643eceb0784ebcadcdef2fd",
     },
   },
+  alternates: { canonical: "/" },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
+  const jsonLd = [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      name: SITE.name,
+      url: SITE.url,
+      inLanguage: "ko",
+      description: SITE.description,
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      name: SITE.name,
+      url: SITE.url,
+      logo: `${SITE.url}/icon`,
+    },
+  ];
+
   return (
     <html lang="ko" className={`${pretendard.variable} h-full antialiased`}>
       <head>
@@ -48,6 +78,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {children}
         <TaboolaPlacements />
         <Analytics />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
       </body>
     </html>
   );
