@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const size = { width: 32, height: 32 };
+export const size = { width: 64, height: 64 };
 export const contentType = "image/png";
 
 const landmarkPaths = [
@@ -22,17 +22,17 @@ export default function Icon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0F172A",
-          borderRadius: 7,
+          background: "linear-gradient(150deg, #3b82f6 0%, #1d4ed8 100%)",
+          borderRadius: 14,
         }}
       >
         <svg
-          width="20"
-          height="20"
+          width="38"
+          height="38"
           viewBox="0 0 24 24"
           fill="none"
           stroke="#FFFFFF"
-          strokeWidth={2.5}
+          strokeWidth={2.4}
           strokeLinecap="round"
           strokeLinejoin="round"
         >

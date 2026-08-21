@@ -22,7 +22,7 @@ export default function AppleIcon() {
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
-          background: "#0F172A",
+          background: "linear-gradient(150deg, #3b82f6 0%, #1d4ed8 100%)",
         }}
       >
         <svg
@@ -31,7 +31,7 @@ export default function AppleIcon() {
           viewBox="0 0 24 24"
           fill="none"
           stroke="#FFFFFF"
-          strokeWidth={2}
+          strokeWidth={2.1}
           strokeLinecap="round"
           strokeLinejoin="round"
         >

@@ -5,7 +5,8 @@ import { getAllInstitutions, getInstitution } from "@/lib/institutions";
 import { institutionTypeColor, institutionTypeLabel, type InstitutionType } from "@/lib/types";
 import { SITE } from "@/lib/site";
 
-export const size = { width: 1200, height: 630 };
+// 2x resolution (120:63 ratio) — vector-sourced, stays crisp when scaled up.
+export const size = { width: 2400, height: 1260 };
 export const contentType = "image/png";
 
 function isInstitutionType(value: string): value is InstitutionType {
@@ -43,40 +44,68 @@ export default async function Image({
 
   const title = institution ? `${institution.name} 홈페이지·앱 바로가기` : SITE.name;
   const badge = institution ? institutionTypeLabel[institution.type] : undefined;
-  const badgeColor = institution ? institutionTypeColor[institution.type].textOnDark : "#60A5FA";
+  const badgeColor = institution ? institutionTypeColor[institution.type].textOnDark : "#93C5FD";
   const markColor = institution ? institutionTypeColor[institution.type].text : "#2563EB";
 
   return new ImageResponse(
     (
       <div
         style={{
+          position: "relative",
           width: "100%",
           height: "100%",
           display: "flex",
           flexDirection: "column",
           alignItems: "flex-start",
           justifyContent: "center",
-          gap: 24,
-          padding: "0 96px",
-          background: "#0F172A",
+          padding: "0 200px",
+          background: "#0B1120",
           backgroundImage:
-            "radial-gradient(circle at 82% 22%, rgba(37,99,235,0.35), transparent 55%)",
+            "radial-gradient(circle at 80% 28%, rgba(37,99,235,0.50), transparent 52%), radial-gradient(circle at 12% 96%, rgba(59,130,246,0.18), transparent 46%)",
+          overflow: "hidden",
         }}
       >
         <div
           style={{
+            position: "absolute",
+            top: 170,
+            right: 150,
+            width: 560,
+            height: 560,
+            borderRadius: 560,
+            background:
+              "radial-gradient(circle at 38% 34%, rgba(96,165,250,0.45), rgba(37,99,235,0.04) 62%, transparent 72%)",
+          }}
+        />
+        <div
+          style={{
+            position: "absolute",
+            top: 260,
+            right: 260,
+            width: 380,
+            height: 380,
+            borderRadius: 380,
+            border: "3px solid rgba(148,197,253,0.24)",
+          }}
+        />
+
+        <div
+          style={{
+            position: "relative",
             display: "flex",
-            width: 76,
-            height: 76,
-            borderRadius: 18,
+            width: 168,
+            height: 168,
+            borderRadius: 40,
             background: markColor,
             alignItems: "center",
             justifyContent: "center",
+            boxShadow: "0 44px 84px rgba(37,99,235,0.45), inset 0 3px 0 rgba(255,255,255,0.4)",
+            marginBottom: 52,
           }}
         >
           <svg
-            width="44"
-            height="44"
+            width="96"
+            height="96"
             viewBox="0 0 24 24"
             fill="none"
             stroke="#FFFFFF"
@@ -94,7 +123,13 @@ export default async function Image({
           <div
             style={{
               display: "flex",
-              fontSize: 28,
+              alignItems: "center",
+              padding: "12px 28px",
+              marginBottom: 30,
+              borderRadius: 999,
+              background: "rgba(37,99,235,0.16)",
+              border: "1px solid rgba(96,165,250,0.35)",
+              fontSize: 40,
               fontFamily: "Pretendard",
               fontWeight: 800,
               color: badgeColor,
@@ -107,12 +142,14 @@ export default async function Image({
         <div
           style={{
             display: "flex",
-            fontSize: 64,
+            fontSize: 118,
             fontFamily: "Pretendard",
             fontWeight: 800,
             color: "#FFFFFF",
-            letterSpacing: -1.5,
-            maxWidth: 980,
+            letterSpacing: -3,
+            lineHeight: 1.12,
+            maxWidth: 1720,
+            wordBreak: "keep-all",
           }}
         >
           {title}
@@ -120,7 +157,8 @@ export default async function Image({
         <div
           style={{
             display: "flex",
-            fontSize: 30,
+            marginTop: 40,
+            fontSize: 56,
             fontFamily: "Pretendard",
             fontWeight: 500,
             color: "#94A3B8",
